@@ -1,28 +1,22 @@
 /* font-family: 'Press Start 2P', cursive;
 font-family: 'Ranchers', cursive; */
 
-
-body{
-
-  background-color:#364f6b;
+body {
+  background-color: #364f6b;
   text-align: center;
-  font-family: 'Ranchers', cursive;
+  font-family: "Ranchers", cursive;
 }
-h1{
-  font-family: 'Press Start 2P', cursive;
+h1 {
+  font-family: "Press Start 2P", cursive;
   color: #ff2e63;
 }
 
-section{
-
-background-color: #f6f7d7;
-border-radius: 5%;
-padding: 20px;
-margin: 0 30%;
-
-
+section {
+  background-color: #f6f7d7;
+  border-radius: 5%;
+  padding: 20px;
+  margin: 0 30%;
 }
-
 
 .square {
   width: 120px;
@@ -32,6 +26,7 @@ margin: 0 30%;
   margin: 2%;
   border-color: #252a34;
   background-color: #fc5185;
+  
 }
 
 .grid {
@@ -42,41 +37,36 @@ margin: 0 30%;
   width: 600px;
   height: 600px;
   margin: 50px auto;
-  background-color:  #08d9d6 ;
+  background-color: #08d9d6;
   border-radius: 5%;
 }
 
 .mole {
-  background-image: url('mole.jpg');
+  background-image: url("mole.jpg");
   background-size: cover;
+  cursor: crosshair;
 }
 
-@media (max-width : 800px){
-
-
+@media (max-width: 800px) {
   .square {
-  width: 80px;
-  height: 80px;
-  border: 5px solid;
-  border-radius: 5%;
-  margin: 1%;
-  border-color: #252a34;
-  background-color: #fc5185;
+    width: 80px;
+    height: 80px;
+    border: 5px solid;
+    border-radius: 5%;
+    margin: 1%;
+    border-color: #252a34;
+    background-color: #fc5185;
+    }
+
+  .grid {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+  }
+
+  section {
+    padding: 20px;
+    margin: 0 15%;
+  }
 }
 
-.grid {
-
-  width: 300px;
-  height: 300px;
-  margin: 50px auto;
-}
-
-section{
-
-padding: 20px;
-margin: 0 15%;
-
-
-}
-
-}
